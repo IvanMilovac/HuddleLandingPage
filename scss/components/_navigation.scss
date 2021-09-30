@@ -1,0 +1,15 @@
+nav {
+  img {
+    width: 8rem;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 800px) {
+  nav {
+    img {
+      width: 11rem;
+      padding: 1rem 3rem;
+    }
+  }
+}

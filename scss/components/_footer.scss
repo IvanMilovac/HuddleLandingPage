@@ -1,0 +1,52 @@
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  .facebook-icon-container svg {
+    width: 40px;
+    height: 40px;
+    fill: #fff;
+    margin-inline: 0.3rem;
+  }
+  .twitter-icon-container svg {
+    width: 40px;
+    height: 40px;
+    fill: #fff;
+    margin-inline: 0.3rem;
+  }
+  .instagram-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    height: 37px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-inline: 0.3rem;
+  }
+  .instagram-icon-container svg {
+    width: 25px;
+    height: 25px;
+    fill: #fff;
+  }
+}
+
+@media (min-width: 500px) {
+  footer {
+    .facebook-icon-container svg:hover {
+      cursor: pointer;
+      fill: var(--clr-primary-100);
+    }
+    .twitter-icon-container svg:hover {
+      cursor: pointer;
+      fill: var(--clr-primary-100);
+    }
+    .instagram-icon-container:hover {
+      cursor: pointer;
+      border: 1px solid var(--clr-primary-100);
+      svg {
+        fill: var(--clr-primary-100);
+      }
+    }
+  }
+}
